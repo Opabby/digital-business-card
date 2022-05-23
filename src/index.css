@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: auto;
+  width: auto;
+  background-color: #23252C;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card{
+  width: 25rem;
+  height: 100vh;
+  margin-right: 0;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* info */
+.info{
+  text-align: center;
+  color: #fff;
+  background-color: #1A1B21;
+  padding-bottom: 2rem;
+  width: auto;
+}
+
+.profile{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.name{
+  margin-bottom: .25rem;
+}
+
+.dev{
+  color: #F3BF99;
+  font-weight: 400;
+  margin-top: .25rem;
+  margin-bottom: .5rem;
+}
+
+.website{
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.buttons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.button{
+  width: 8rem;
+  height: 2.5rem;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  color: #374151;
+  background-color: #D1D5DB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail, .lkd{
+  margin-right: .5rem;
+}
+
+.lkd_btn{
+  color: #fff;
+  background-color: #5093E2;
+}
+
+/* about and interests*/
+.about, .interests{
+  color: #fff;
+  background-color: #1A1B21;
+  padding: 0 3rem;
+}
+
+.about-text, .interests-text{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.5rem;
+  padding-bottom: 0;
+}
+
+/* footer */
+.footer{
+  padding: 2rem 2rem;
+  width: 21rem;
+  background-color: #161619;
+}
+
+.social{
+  display: flex;
+  justify-content: space-around;
+}
+
+.social img{
+  width: 2.25rem;
+}
+
+.social img:hover{
+  cursor: pointer;
+}
+
